@@ -1,0 +1,153 @@
+{
+  "subjects": [
+    {
+      "id": "1",
+      "slug": "lap-trinh-web",
+      "name": "Lập trình Web",
+      "teacher": "TS. Nguyễn Văn An",
+      "description": "Môn học về HTML, CSS, JavaScript, React và Next.js"
+    },
+    {
+      "id": "2",
+      "slug": "co-so-du-lieu",
+      "name": "Cơ sở dữ liệu",
+      "teacher": "TS. Trần Thị Bình",
+      "description": "Thiết kế và quản trị cơ sở dữ liệu quan hệ với MySQL, PostgreSQL"
+    },
+    {
+      "id": "3",
+      "slug": "mang-may-tinh",
+      "name": "Mạng máy tính",
+      "teacher": "ThS. Lê Văn Cường",
+      "description": "Kiến trúc mạng, giao thức TCP/IP, bảo mật mạng"
+    },
+    {
+      "id": "4",
+      "slug": "ky-thuat-phan-mem",
+      "name": "Kỹ thuật phần mềm",
+      "teacher": "TS. Phạm Thị Dung",
+      "description": "Quy trình phát triển phần mềm, UML, kiểm thử"
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "1",
+      "title": "Nộp báo cáo đồ án web",
+      "description": "Báo cáo đồ án môn Lập trình Web gồm tài liệu thiết kế, source code và demo video",
+      "subjectId": "1",
+      "dueDate": "2026-10-25T23:59:00.000Z",
+      "createdAt": "2026-10-10T07:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Bài tập SQL cơ bản",
+      "description": "Hoàn thành 20 câu truy vấn SQL từ cơ bản đến nâng cao trên hệ quản trị MySQL",
+      "subjectId": "2",
+      "dueDate": "2026-10-28T23:59:00.000Z",
+      "createdAt": "2026-10-12T08:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Bài kiểm tra giữa kỳ mạng",
+      "description": "Ôn tập và hoàn thành bài kiểm tra giữa kỳ về mô hình OSI, TCP/IP và các giao thức mạng",
+      "subjectId": "3",
+      "dueDate": "2026-10-30T23:59:00.000Z",
+      "createdAt": "2026-10-15T09:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Thiết kế CSDL bệnh viện",
+      "description": "Thiết kế cơ sở dữ liệu quản lý bệnh viện gồm ER diagram, schema và các ràng buộc toàn vẹn",
+      "subjectId": "2",
+      "dueDate": "2026-11-05T23:59:00.000Z",
+      "createdAt": "2026-10-20T08:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Lab React hooks",
+      "description": "Thực hành các React hooks: useState, useEffect, useContext, useReducer qua bài lab trên lớp",
+      "subjectId": "1",
+      "dueDate": "2026-11-07T23:59:00.000Z",
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "title": "Phân tích giao thức TCP/IP",
+      "description": "Dùng Wireshark bắt và phân tích gói tin TCP/IP, viết báo cáo nhận xét chi tiết",
+      "subjectId": "3",
+      "dueDate": "2026-11-08T23:59:00.000Z",
+      "createdAt": "2026-10-23T08:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "title": "Use case diagram phần mềm",
+      "description": "Vẽ use case diagram cho hệ thống quản lý thư viện trường đại học bằng StarUML",
+      "subjectId": "4",
+      "dueDate": "2026-11-10T23:59:00.000Z",
+      "createdAt": "2026-10-25T09:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "title": "Đồ án Next.js final",
+      "description": "Hoàn thành đồ án ứng dụng web full-stack sử dụng Next.js 15, Tailwind CSS và JSON file database",
+      "subjectId": "1",
+      "dueDate": "2026-11-12T23:59:00.000Z",
+      "createdAt": "2026-10-28T07:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "title": "Báo cáo kiểm thử phần mềm",
+      "description": "Viết báo cáo kiểm thử phần mềm gồm test case, test plan và kết quả kiểm thử cho dự án nhóm",
+      "subjectId": "4",
+      "dueDate": "2026-11-15T23:59:00.000Z",
+      "createdAt": "2026-10-30T08:30:00.000Z"
+    },
+    {
+      "id": "10",
+      "title": "Bài tập stored procedure",
+      "description": "Viết 10 stored procedure và 5 trigger cho hệ thống CSDL quản lý bán hàng",
+      "subjectId": "2",
+      "dueDate": "2026-11-20T23:59:00.000Z",
+      "createdAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "11",
+      "title": "Mô phỏng mạng Cisco Packet Tracer",
+      "description": "Xây dựng topology mạng LAN/WAN với Cisco Packet Tracer, cấu hình VLAN, routing và NAT",
+      "subjectId": "3",
+      "dueDate": "2026-11-25T23:59:00.000Z",
+      "createdAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "12",
+      "title": "Đồ án cuối kỳ kỹ thuật phần mềm",
+      "description": "Đồ án cuối kỳ: phân tích thiết kế hệ thống phần mềm đầy đủ gồm SRS, SDD, test report và source code",
+      "subjectId": "4",
+      "dueDate": "2026-12-15T23:59:00.000Z",
+      "createdAt": "2026-11-02T07:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin Lớp",
+      "email": "admin@ptit.edu.vn",
+      "passwordHash": "$2b$10$pqSXegKHQPgWSD.JsGfP7.jEnKWg/iSwSmWsa4fy9Is4OsWUr8Nx.",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Sinh viên Demo",
+      "email": "sv@ptit.edu.vn",
+      "passwordHash": "$2b$10$jwDmwuNhm5Xjv0f7.xHT9edBmw1VX4qmoD7OpCyWZ4LNZTpGFUNg2",
+      "role": "user"
+    }
+  ],
+  "completions": [
+    {
+      "userId": "2",
+      "deadlineId": "1",
+      "completedAt": "2026-10-20T10:00:00.000Z"
+    }
+  ]
+}
